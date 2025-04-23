@@ -15,10 +15,10 @@ function toggle (){
     <h1>Vue Lifecycle Demo</h1>
     <button @click="toggle">Toggle Component</button>
 
-    <!-- <CounterProgram v-if="show" /> -->
-    <keep-alive>
+    <CounterProgram v-if="show" />
+    <!-- <keep-alive>
       <CounterProgram v-if="show" />
-    </keep-alive>
+    </keep-alive> -->
   
   
   </div>
